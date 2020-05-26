@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d71eb42a-8290-4868-851c-ea2750c30e24" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cCLAENG8qjWZMm8ttAXK8r2eoK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/test_data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.parallel_nanopore">
+    <configuration name="parallel_nanopore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hydra_nanopore" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hydra_nanopore" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hydra_nanopore/parallel_nanopore.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="serial_nanopore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hydra_nanopore" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hydra_nanopore" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hydra_nanopore/serial_nanopore.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.parallel_nanopore" />
+        <item itemvalue="Python.serial_nanopore" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d71eb42a-8290-4868-851c-ea2750c30e24" name="Default Changelist" comment="" />
+      <created>1590027482428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590027482428</updated>
+      <workItem from="1590027484870" duration="1003000" />
+      <workItem from="1590068632351" duration="2049000" />
+      <workItem from="1590075266011" duration="1152000" />
+      <workItem from="1590076608666" duration="1540000" />
+      <workItem from="1590080435883" duration="12849000" />
+      <workItem from="1590179544592" duration="831000" />
+      <workItem from="1590417701607" duration="12849000" />
+      <workItem from="1590504035204" duration="270000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2343" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590096692393">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2343" y="334" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590096692393" />
+    <state width="1498" height="755" key="GridCell.Tab.0.bottom" timestamp="1590437941085">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1498" height="755" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590437941085" />
+    <state width="1634" height="238" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1590028396156" />
+    <state width="1498" height="755" key="GridCell.Tab.0.center" timestamp="1590437941085">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1498" height="755" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590437941085" />
+    <state width="1634" height="238" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1590028396156" />
+    <state width="1498" height="755" key="GridCell.Tab.0.left" timestamp="1590437941085">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1498" height="755" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590437941085" />
+    <state width="1634" height="238" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1590028396156" />
+    <state width="1498" height="755" key="GridCell.Tab.0.right" timestamp="1590437941085">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1498" height="755" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590437941085" />
+    <state width="1634" height="238" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1590028396156" />
+    <state width="1498" height="303" key="GridCell.Tab.1.bottom" timestamp="1590437738428">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1498" height="303" key="GridCell.Tab.1.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590437738428" />
+    <state width="1498" height="303" key="GridCell.Tab.1.center" timestamp="1590437738428">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1498" height="303" key="GridCell.Tab.1.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590437738428" />
+    <state width="1498" height="303" key="GridCell.Tab.1.left" timestamp="1590437738428">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1498" height="303" key="GridCell.Tab.1.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590437738428" />
+    <state width="1498" height="303" key="GridCell.Tab.1.right" timestamp="1590437738428">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1498" height="303" key="GridCell.Tab.1.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590437738428" />
+    <state x="2447" y="216" key="SettingsEditor" timestamp="1590436804790">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2447" y="216" key="SettingsEditor/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590436804790" />
+    <state x="574" y="235" key="SettingsEditor/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1590028219737" />
+    <state width="901" height="476" key="XDebugger.FullValuePopup" timestamp="1590418159989">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="901" height="476" key="XDebugger.FullValuePopup/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590418159989" />
+    <state x="2620" y="310" key="com.intellij.ide.util.TipDialog" timestamp="1590504303889">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2620" y="310" key="com.intellij.ide.util.TipDialog/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590504303889" />
+    <state x="741" y="327" key="com.intellij.ide.util.TipDialog/65.24.1855.1056/1920.0.1920.1080@65.24.1855.1056" timestamp="1590068959698" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hydra_nanopore/serial_nanopore.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hydra_nanopore/serial_nanopore.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hydra_nanopore/parallel_nanopore.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hydra_nanopore/parallel_nanopore.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../hydra/hydra/pipeline.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hydra_nanopore$serial_nanopore.coverage" NAME="serial_nanopore Coverage Results" MODIFIED="1590424203626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hydra_nanopore" />
+    <SUITE FILE_PATH="coverage/hydra_nanopore$parallel_nanopore.coverage" NAME="parallel_nanopore Coverage Results" MODIFIED="1590437941071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hydra_nanopore" />
+    <SUITE FILE_PATH="coverage/hydra_nanopore$nanopore.coverage" NAME="nanopore Coverage Results" MODIFIED="1590096612153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hydra_nanopore" />
+  </component>
+</project>

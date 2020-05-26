@@ -1,0 +1,83 @@
+albacore:
+    basecall:
+        template: "read_fast5_basecaller.py --input {{ input }} --save_path {{ output }} --flowcell {{ flowcell }} --recursive --kit {{ kit }} --output_format {{ output_format }} --worker_threads {{ worker_threads }} --reads_per_fastq {{ reads_per_fastq }}"
+minimap2:
+    map-nanopore:
+        template: "minimap2 -ax splice {{ reference }} {{ input }} -o {{ output }}"
+samtools:
+    view:
+        template: "samtools view -{{ options }} {{ input }} -o {{ output }}"
+    index:
+        template: "samtools index {{ input }} {{ output }}"
+    sort:
+        template: "samtools sort
+        {% if options is defined %}
+            -{{ options }}
+        {% endif %}
+        {% if level is defined %}
+            -l{{ level }}
+        {% endif %}
+        {% if maxMem is defined %}
+            -m{{ maxMem }}
+        {% endif %}
+        {% if format is defined %}
+            -O{{ formats }}
+        {% endif %}
+        {% if tag is defined %}
+            -t{{ tag }}
+        {% endif %}
+        {% if tmpprefix is defined %}
+            -T{{ tmpprefix }}
+        {% endif %}
+        {% if tmpprefix is defined %}
+            -@{{ threads }}
+        {% endif %}
+        {{ input }} -o {{ output }}"
+bcftools:
+    mpileup:
+        template: "bcftools mpileup
+         {% if options is defined %}
+             -{{ options }}
+         {% endif %}
+         {% if adjust_MQ is defined %}
+             -C{{ adjust_MQ }}
+         {% endif %}
+         {% if max_depth is defined %}
+             -d{{ max_depth }}
+         {% endif %}
+         {% if read_groups is defined %}
+             -G{{ read_groups }}
+         {% endif %}
+         {% if min_MQ is defined %}
+             -q{{ min_MQ }}
+         {% endif %}
+         {% if min_BQ is defined %}
+             -Q{{ min_BQ }}
+         {% endif %}
+         {% if regions is defined %}
+             -r{{ regions }}
+         {% endif %}
+         {% if regions_file is defined %}
+              -R{{ regions_file }}
+          {% endif %}
+          {% if incl_flags is defined %}
+              -rf{{ incl_flags }}
+          {% endif %}
+          {% if excl_flags is defined %}
+              -ff{{ excl_flags }}
+          {% endif %}
+          {% if samples is defined %}
+              -s{{ samples }}
+          {% endif %}
+          {% if samples_files is defined %}
+              -S{{ samples_files }}
+          {% endif %}
+          {% if targets is defined %}
+              -t{{ targets }}
+          {% endif %}
+          {% if targets_files is defined %}
+              -T{{ targets_file }}
+          {% endif %}
+         -f {{ reference }} {{ input }} -o {{ output }}"
+    call:
+        template: "bcftools call -mv -Ob -o calls.bcf"
